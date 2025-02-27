@@ -1,0 +1,41 @@
+.new-doctor-container {
+    max-width: 520px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.row-file {
+    margin-bottom: 2px;
+}
+.image-upload {
+    margin-left: 30px;
+}
+.page-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.create-doctor-form-button {
+    width: 100%;
+}
+.btn-register-doctor {
+    margin-top: -10px;
+}
+.create-doctor-form-button[disabled], .create-doctor-form-button[disabled]:hover, .create-doctor-form-button[disabled]:focus {
+    opacity: 0.6;
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+}
+
+
+@media (max-width: 768px) {
+    .image-upload {
+        margin-left: 0px;
+    }
+} 
+
+@media (max-width : 1024px ) {
+    .image-upload {
+        margin-left: 0px;
+    }
+} 

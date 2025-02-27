@@ -1,0 +1,469 @@
+.main-clinic {
+    position: relative;
+}
+.clinic-left {
+    background: #f6f6f6;
+    position: fixed;
+    width: 25%;
+    height: 600px;
+}
+.link-clinic {
+    text-decoration: none;
+}
+.clinic-right {
+    position: absolute;
+    background: #f6f6f6;
+    height: 1000px;
+    width: 75%;
+    right: 0px;
+    top: 0px;
+}
+.menu-clinic-ui {
+    background: #f6f6f6;
+}
+
+.img-clinic {
+    height: 350px;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    border-radius: calc(.25rem - 1px);
+}
+
+.clinic-image {
+    border: -1px solid #e4d3a1;
+    border-radius: 3px;
+}
+.logo-clinic {
+    margin-top: 10px;
+    width: 85%;
+    margin-left: 8px;
+}
+
+.address-clinic{
+    margin-top: 10%;
+    width: 85%;
+    margin-left: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logo-clinic-image {
+    height: 160px;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    border-radius: calc(.25rem - 1px);
+}
+
+.menu-clinic {
+    margin-top: 10px;
+    width: 85%;
+    background: #f6f6f6;
+    margin-left: 8px;
+}
+
+.menu-clinic-add {
+    margin-top: 3px;
+    width: 85%;
+    background: #f6f6f6;
+    margin-left: 8px;
+}
+
+.logo-clinic-name {
+    /* margin-top: ; */
+    width: 85%;
+    margin-left: 8px;
+}
+.name-clinic {
+    height: 45px;
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #4c78a9;
+    font-size: 18px;
+}
+
+.logo-mobile {
+    display: none;
+    height: 100px;
+}
+
+.doctor-clinic {
+    display: table;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    border-radius: 8px;
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+
+.doctor {
+    margin-top: 15px;
+    display: table-row;
+    margin-left: 5px;
+    width: 49%;
+    float: left;
+    border-right: 1.5px solid #eee;
+}
+
+.booking {
+    margin-top: 15px;
+    margin-left: 10px;
+    display: table-row;
+    width: 48%;
+    float: left;
+}
+.btn-taolich {
+    margin-left: 10%;
+    margin-top: 5px;
+}
+.img-clinic-image {
+    height: 135px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-size: cover;
+    width: 100%;
+}
+
+.logo {
+    height: 135px;
+    width: 30%;
+    float: left;
+}
+
+.logo-name-clinic {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #4c78a9;
+    font-size: 15px;
+}
+
+.line-line-post {
+    margin-top: 1px;
+}
+.line-line-post-type {
+    margin-top: -15px;
+}
+.address-logo {
+    margin-top: 25px;
+}
+.infor-name-clinic {
+    margin-top: -10px;
+    margin-left: 8px;
+    color: #555;
+}
+
+.infor {
+    width: 70%;
+    float: left;
+}
+.rate-commnet {
+    margin-top: 10px;
+    padding-bottom: 9px;
+}
+
+.rate-logo-text {
+    margin-top: 5px;
+    float: left;
+}
+
+.rate-logo-rate {
+    margin-left: 10px;
+    float: left;
+}
+
+.dat-lich-kham {
+    margin-top: 5px;
+    float: left;
+    width: 35%;
+    color: #666;
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.select-day {
+    margin-left: 10px;
+    float: left;
+    width: 60%;
+}
+.hr-booking {
+    margin-top: 35px;
+}
+.show-revew-btn {
+    width: 100%;
+    margin-top: -15px;
+    text-align: center;
+}
+.ant-radio-group {
+    width: 100%;
+}
+.modal-btn-ra {
+    width: 33%;
+}
+.modal-btn-ra1 {
+    width: 34%;
+}
+.show-revew-btn :hover {
+    background: #fff;
+}
+
+.show-revew-body {
+    background: #fff;
+}
+.btn-dang:hover {
+    background: #1890ff;
+}
+.show-hide-rate {
+    height: 100px;
+    width: 100%;
+}
+.modal-img-commnet {
+    float: left;
+    width: 11%;
+    height: 52px;
+}
+.modal-area-commnet {
+    float: left;
+    width: 72%;
+}
+.btn-dang-commnet {
+    float: left;
+    width: 15%;
+}
+.img-commnet-image {
+    width: 90%;
+    height: 96%;
+    object-fit: cover;
+    border-radius: 106%;
+    background-size: cover;
+}
+.written-commnet{
+    display: table;
+    margin-bottom: 6px;
+}
+.text-commnet-modal {
+    background: #f2f3f5;
+    border-radius: 12px;
+    text-align: justify;
+}
+.conten-commnet-text {
+    margin-left: 12px;
+    float: left;
+    width: 85%;
+}
+.item-content-commnet {
+    display: table;
+    margin-top: 2px;
+}
+.date-booking {
+    margin-left: 10px;
+}
+.item-form-booing {
+    border-radius: 1px;
+    border: 1px solid #e4d3a1;
+    width: 100%;
+    display: table;
+}
+.lable-day {
+    width: 20%;
+    float: left;
+}
+.input-date {
+    float: left;
+}
+.distance-form {
+    margin-top: 5px;
+}
+.time-input{
+    margin-left: 117px;
+    width: 185px;
+}
+.form-add{
+    margin-left: 12px;
+}
+
+.video-youtube {
+    margin-top: -15px;
+}
+
+.huong-dan {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.prices {
+    background:#ffffff;
+}
+.tr-prices {
+    color: #1890ff;
+}
+.btn-left-clinic {
+    width: 250px;
+}
+.view-bookeds-doctor {
+    background:#ffffff;
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    border-radius: 12px;
+    margin-bottom: 5px;
+}
+
+.title-bookeds {
+    font-size: 15px;
+    color: #1890ff;
+    font-weight: bolder;
+}
+.text-data-booked {
+    font-size: 12px;
+    color: black ;
+    font-weight: bolder;
+}
+@media (max-width: 768px) {
+   .clinic-left {
+        display: none;
+        background: chartreuse;
+        position: static;
+        width: 100%;
+        height: 225px;
+    }
+    .clinic-right {
+        position: static;
+        height: 1000px;
+        width: 100%;
+    }
+    .ant-modal-body {
+        padding: 5px;
+        font-size: 14px;
+        line-height: 1.5;
+        word-wrap: break-word;
+    }
+    .address-clinic{
+        position: absolute;
+        /* top: 125px; */
+        margin-top: 32%;
+        width: 85%;
+        margin-left: 8px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .icon-address {
+        margin-left: 2px;
+        float: left;
+        margin-top: -9px;
+    }
+    .menu-clinic-ui {
+       margin-top: 100px;
+    }
+
+    .logo-clinic {
+        margin-top: -42px;
+        position: absolute;
+        top: 100px;
+        left: -5px;
+        width: 30%;
+    }
+    .logo-clinic-name {
+        margin-top: -42px;
+        position: absolute;
+        top: 100px;
+        margin-left: 30%;
+        margin-right: 9px;
+        width: 65%;
+    }
+    .name-clinic {
+        font-size: small;
+        height: 45px;
+        margin-top: 5px;
+        text-align: center;
+        font-weight: bold;
+        color: #4c78a9;
+    }
+    .menu-clinic {
+        display: none;
+    }
+
+    .doctor {
+        width: 100%;
+    }
+    
+    .booking {
+        width: 100%
+    }
+
+    .ant-col {
+        width: auto;
+    }
+
+    .img-commnet-image {
+        width: 125%;
+        height: 95%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 106%;
+        background-size: cover;
+    }
+    .modal-area-commnet {
+        margin-left: 12px;
+        float: left;
+        width: 67%;
+    }
+    .time-input{
+        margin-left: 50px;
+        width: 110px;
+    }
+} 
+.btn-left{
+    width: 80%;
+    margin-left: 15px;
+}
+@media (max-width: 1024px) {
+    .ant-col{
+        width: auto;
+    }
+    .ant-modal-body {
+        padding: 5px;
+        font-size: 14px;
+        line-height: 1.5;
+        word-wrap: break-word;
+    }
+    .img-commnet-image {
+        width: 120%;
+        height: 95%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 106%;
+        background-size: cover;
+    }
+    .modal-area-commnet {
+        margin-left: 12px;
+        margin-right: 2px;
+        float: left;
+        width: 68%;
+    }
+    .time-input{
+        margin-left: 50px;
+        width: 110px;
+    }
+ }  

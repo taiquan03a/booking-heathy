@@ -1,0 +1,273 @@
+.dangnhap-show {
+    margin-top: 9px;
+    height: 150px;
+    background: #f8f8f6;
+}
+.img-show {
+    float: left;
+    width: 50%;
+}
+.sign-show {
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+.sign-title {
+    font-size: 23px;
+}
+.clinic-all {
+    padding: 0.4em 0em 0.5em 0em;
+    /* margin-top: -10px; */
+}
+.card-img {
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    border-radius: calc(.25rem - 1px);
+}
+.card:hover{
+    background: #f7f6ee;
+}
+ .row-card {
+    padding: 0em 1em 0em 1em;
+ }
+ .col {
+    /* box-shadow: px 0px 0px rgba(0, 0, 0, .5); */
+    margin: 10px -13px;
+ }
+.text-doctor {
+    margin-top: -15px;
+    text-align: center;
+}
+
+.text-name-doctor {
+    height: 40px;
+    font-size: 15px;
+     text-align: center;
+     font-weight: bold;
+     color: #4c78a9;
+     font-size: 15px;
+ }
+
+.line-line {
+    margin-top: 5px;
+}
+
+.text-faculty {
+    color: #231616;
+    font-size: 10px;
+    margin-top: -14px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.title-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+.text-name-clinic {
+    height: 45px;
+    margin-top: -15px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #4c78a9;
+    font-size: 15px;
+}
+.icon-address{
+    margin-top: -15px;
+}
+.text-clinic {
+    text-align: center;
+}
+.text-address {
+    color: #231616;
+    font-size: 11.5px;
+    margin-top: -18px;
+}
+.icon-address{
+    margin-left: 7px;
+    float: left;
+    margin-top: 0px;
+}
+.card-body {
+    margin-left: -13px;
+    margin-right: -13px;
+}
+
+.show-revew {
+    margin-top: -15px;
+    height: 50px;
+    text-align: center;
+}
+
+.show-revew-border {
+    font-size: 11px;
+    font-weight: bold;
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    border: 1px solid #e4d3a1;
+    border-radius: 4px;
+}
+
+.show-count {
+    margin-top: -12px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #4c78a9;
+}
+.show-rate {
+    font-size: 17px;
+}
+
+.ant-rate-star:not(:last-child) {
+    margin-right: 2px;
+    
+}
+
+.slick-initialized .slick-prev{
+    background: #1d5fa0;
+}
+
+.slick-initialized:hover .slick-prev{
+    background: #1d5fa0;
+}
+
+.slick-initialized .slick-next{
+    background: #1d5fa0;
+}
+
+.slick-initialized:hover .slick-next{
+    background: #1d5fa0;
+}
+
+/* .item-slider {
+    margin-left: 1px;
+    margin-right: 1px;
+} */
+
+
+/* .ant-col:hover{
+    background: #f5e896;
+} */
+.posts-infor {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: table;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    border-radius: 8px;
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .img-show {
+        display: none;
+    }
+    .sign-show {
+        width: 100%;
+    }
+    .search-top {
+        height: 200px;
+    }
+
+    .ant-col {
+        width: 100%;
+    }
+    .ant-list-pagination {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .text-faculty {
+        margin-top: -14px;
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+    
+    .title-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .card-body {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .show-revew-border {
+        font-size: 12.2px;
+        font-weight: bold;
+        height: 100%;
+        width: 33.33%;
+        float: left;
+        border: 1px solid #e4d3a1;
+        border-radius: 3px;
+    }
+    
+    .ant-rate-star:not(:last-child) {
+        margin-right: 2px;
+    }
+    .text-name-doctor {
+        height: 20px;
+     }
+     .text-name-clinic {
+        height: 20px;
+    }
+} 
+
+@media (max-width : 1024px ) {
+    .search-top {
+        height: 200px;
+    }
+
+    .card .card {
+        width: 100%;
+    }
+    .ant-col {
+        width: 100%;
+        /* margin-left: 4.5%; */
+    }
+    .ant-list-pagination {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .text-faculty {
+        margin-top: -14px;
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+    
+    .title-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .card-body {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .show-revew-border {
+        font-size: 12.2px;
+        font-weight: bold;
+        height: 100%;
+        width: 33.33%;
+        float: left;
+        border: 1px solid #e4d3a1;
+        border-radius: 3px;
+    }
+    .ant-rate-star:not(:last-child) {
+        margin-right: 2px;
+        font-size: 18px;
+    }
+    .text-name-doctor {
+        height: 20px;
+     }
+     .text-name-clinic {
+        height: 20px;
+    }
+} 
